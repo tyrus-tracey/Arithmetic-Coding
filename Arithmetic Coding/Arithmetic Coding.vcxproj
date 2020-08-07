@@ -148,6 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Arithmetic Coding.cpp" />
+    <ClCompile Include="symbolDistribution.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="symbolDistribution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
