@@ -148,9 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Arithmetic Coding.cpp" />
+    <ClCompile Include="arithmeticCoding.cpp" />
     <ClCompile Include="symbolDistribution.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arithmeticCoding.h" />
     <ClInclude Include="symbolDistribution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

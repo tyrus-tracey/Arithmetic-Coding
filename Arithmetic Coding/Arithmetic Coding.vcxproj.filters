@@ -21,9 +21,15 @@
     <ClCompile Include="symbolDistribution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="arithmeticCoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="symbolDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arithmeticCoding.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

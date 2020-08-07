@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include "arithmeticCoding.h"
 #include "symbolDistribution.h"
 std::string inputString;
 bool running = true;
@@ -13,6 +14,7 @@ int main()
         if (inputString != "X" && inputString != "x") {
             std::stringstream inputStream(inputString);
             symbolDistribution distribution(inputStream);
+            arithmeticCoding code(distribution);
         }
         else {
             running = false;
