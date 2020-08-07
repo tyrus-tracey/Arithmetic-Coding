@@ -15,6 +15,12 @@ int main()
             std::stringstream inputStream(inputString);
             symbolDistribution distribution(inputStream);
             arithmeticCoding code(distribution);
+            /*
+            std::cout << code.getString() << std::endl;
+            std::cout << "P(A): " << code.getProbA() << std::endl;
+            std::cout << "P(B): " << code.getProbB() << std::endl;
+            std::cout << "- - - - - -\n";
+            */
         }
         else {
             running = false;

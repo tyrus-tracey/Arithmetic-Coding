@@ -6,8 +6,8 @@ symbolDistribution::symbolDistribution(std::stringstream& stream)
 {
     char c;
     while (stream >> c) {
-        if (c == 'A') { A_freq++;} 
-        else if (c == 'B') { B_freq++; }
+        if (c == 'A') { A_freq++; input.push_back(c); }
+        else if (c == 'B') { B_freq++; input.push_back(c); }
     }
     sum = A_freq + B_freq;
 }
@@ -25,4 +25,9 @@ int symbolDistribution::getFreqB() const
 int symbolDistribution::getSum() const
 {
     return sum;
+}
+
+std::string symbolDistribution::getString() const
+{
+    return input;
 }
